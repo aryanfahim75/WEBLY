@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webly | Website Building & Graphic Design Agency</title>
+    <meta name="description" content="Welcome to Webly, your partner for high-quality website building and digital graphic design. We specialize in bespoke, mobile-responsive websites and creative branding.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <h1 class="preloader-logo">
+                <span>W</span><span>E</span><span>B</span><span>L</span><span>Y</span><span>.</span>
+            </h1>
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div class="loading-text">0%</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- Scroll Progress -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">WEBLY.</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="mobile-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu">
+        <div class="mobile-menu-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <canvas id="hero-canvas"></canvas>
+            <div class="hero-content">
+                <span class="eyebrow">✦ Creative Design Agency</span>
+                <h1 class="hero-title">
+                    <span class="line">We Craft Digital</span>
+                    <span class="line gradient-text">Experiences</span>
+                    <span class="line">That Inspire</span>
+                </h1>
+                <p class="hero-description">WEBLY transforms your vision into stunning digital realities. From pixel-perfect websites to iconic brand identities — we create work that moves people.</p>
+                <div class="hero-ctas">
+                    <a href="#portfolio" class="btn btn-filled">View Our Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="arrow"></div>
+                <span>Scroll to explore</span>
+            </div>
+        </section>
+
+        <!-- Marquee -->
+        <div class="marquee">
+            <div class="marquee-inner">
+                <span>WEB DESIGN ✦ UI/UX ✦ BRAND IDENTITY ✦ MOTION GRAPHICS ✦ SOCIAL MEDIA ✦ PRINT DESIGN ✦ LOGO DESIGN ✦&nbsp;</span>
+                <span>WEB DESIGN ✦ UI/UX ✦ BRAND IDENTITY ✦ MOTION GRAPHICS ✦ SOCIAL MEDIA ✦ PRINT DESIGN ✦ LOGO DESIGN ✦&nbsp;</span>
+            </div>
+            <div class="marquee-inner reverse">
+                <span>WEB DESIGN ✦ UI/UX ✦ BRAND IDENTITY ✦ MOTION GRAPHICS ✦ SOCIAL MEDIA ✦ PRINT DESIGN ✦ LOGO DESIGN ✦&nbsp;</span>
+                <span>WEB DESIGN ✦ UI/UX ✦ BRAND IDENTITY ✦ MOTION GRAPHICS ✦ SOCIAL MEDIA ✦ PRINT DESIGN ✦ LOGO DESIGN ✦&nbsp;</span>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="reveal-text">About WEBLY</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-visual">
+                        <!-- CSS Abstract 3D shape -->
+                        <div class="abstract-shape">
+                            <div class="ring"></div>
+                            <div class="ring"></div>
+                            <div class="ring"></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>We Are Digital Creators</h3>
+                        <p>Welcome to Webly, your partner for high-quality website building and digital graphic design. We specialize in creating bespoke, mobile-responsive websites that rank high on search engines.</p>
+                        <p>Our design team provides everything from logo design to full social media branding. Whether you need a new business site or creative graphics, Webly delivers modern solutions tailored to your needs.</p>
+                        
+                        <div class="stats-container">
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="200">0</span><span class="stat-plus">+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+                                <span class="stat-label">Client Satisfaction</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-box">
+                            <h4>Our Mission</h4>
+                            <p>To start your digital transformation with high-quality, modern solutions that drive growth and inspire users.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="reveal-text">What We Do</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-tilt>
+                        <div class="badge badge-top-left">★ 4.9 Rating</div>
+                        <div class="badge badge-bottom-right">✓ Instant Booking</div>
+                        <div class="service-icon">&lt;/&gt;</div>
+                        <h4>Web Design & Development</h4>
+                        <p>Bespoke, mobile-responsive websites optimized for search engines and user experience. We build dental-grade precision for every industry.</p>
+                        <a href="#contact" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="service-icon">◈</div>
+                        <h4>UI/UX Design</h4>
+                        <p>User-centric designs that ensure seamless interaction and high conversion rates.</p>
+                        <a href="#contact" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="service-icon">◎</div>
+                        <h4>Logo & Brand Identity</h4>
+                        <p>Crafting iconic identities that resonate with your audience and define your business.</p>
+                        <a href="#contact" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="service-icon">❋</div>
+                        <h4>Graphics Design</h4>
+                        <p>Creative visuals for social media, print, and digital marketing to elevate your brand.</p>
+                        <a href="#contact" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="service-icon">✦</div>
+                        <h4>Motion Graphics</h4>
+                        <p>Bringing your brand to life with dynamic animations and engaging video content.</p>
+                        <a href="#contact" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card" data-tilt>
+                        <div class="service-icon">▣</div>
+                        <h4>Digital Strategy</h4>
+                        <p>Strategic planning and consultation to guide your business through digital transformation.</p>
+                        <a href="#contact" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="reveal-text">Our Work</h2>
+                </div>
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="logo">Logo</button>
+                    <button class="filter-btn" data-filter="Graphics Design">Graphics</button>
+                </div>
+                <div class="portfolio-grid" id="portfolio-grid">
+                    <!-- JS populated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="reveal-text">Client Love</h2>
+                </div>
+                <div class="testimonials-carousel">
+                    <div class="testimonials-track" id="testimonials-track">
+                        <!-- JS populated -->
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="carousel-prev">←</button>
+                        <div class="carousel-dots" id="carousel-dots"></div>
+                        <button class="carousel-next">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="reveal-text">How We Work</h2>
+                </div>
+                <div class="process-wrapper">
+                    <div class="process-line">
+                        <div class="line-progress"></div>
+                    </div>
+                    <div class="process-steps">
+                        <div class="process-step" data-step="1">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h5>Discovery</h5>
+                                <p>Understanding your vision, goals, and target audience to lay the foundation.</p>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="2">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h5>Strategy</h5>
+                                <p>Planning the perfect approach, architecture, and user journey for your project.</p>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="3">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h5>Design</h5>
+                                <p>Crafting pixel-perfect visuals that align with your brand and delight users.</p>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="4">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h5>Development</h5>
+                                <p>Building with clean, efficient code and the latest digital technologies.</p>
+                            </div>
+                        </div>
+                        <div class="process-step" data-step="5">
+                            <div class="step-number">05</div>
+                            <div class="step-content">
+                                <h5>Launch</h5>
+                                <p>Delivering beyond expectations and ensuring a smooth transition to live.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="reveal-text">Let's Create Together</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Ready to start your project?</h3>
+                        <p>Contact us today to start your digital transformation.</p>
+                        
+                        <div class="contact-item">
+                            <span class="icon">✉</span>
+                            <div class="details">
+                                <small>Email</small>
+                                <a href="mailto:fahimaryan175@gmail.com">fahimaryan175@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">☎</span>
+                            <div class="details">
+                                <small>Phone</small>
+                                <a href="tel:+8801770020175">+880 1770020175</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div class="details">
+                                <small>Location</small>
+                                <p>Cumilla, Bangladesh</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" class="social-icon">Fb</a>
+                            <a href="#" class="social-icon">Ig</a>
+                            <a href="#" class="social-icon">Li</a>
+                            <a href="#" class="social-icon">Be</a>
+                            <a href="#" class="social-icon">Dr</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <form id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" required>
+                                    <label for="name">Full Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="email">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone">
+                                    <label for="phone">Phone (Optional)</label>
+                                </div>
+                                <div class="form-group">
+                                    <select id="service" name="service" required>
+                                        <option value="" disabled selected></option>
+                                        <option value="web">Web Design & Development</option>
+                                        <option value="uiux">UI/UX Design</option>
+                                        <option value="brand">Logo & Brand Identity</option>
+                                        <option value="graphics">Graphics Design</option>
+                                        <option value="motion">Motion Graphics</option>
+                                        <option value="strategy">Digital Strategy</option>
+                                    </select>
+                                    <label for="service">Service Interested In</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select id="budget" name="budget" required>
+                                    <option value="" disabled selected></option>
+                                    <option value="under500">Under $500</option>
+                                    <option value="500-2000">$500 - $2000</option>
+                                    <option value="2000-5000">$2000 - $5000</option>
+                                    <option value="above5000">$5000+</option>
+                                </select>
+                                <label for="budget">Project Budget</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-filled full-width">
+                                <span>Send Message</span>
+                                <div class="shimmer"></div>
+                            </button>
+                            <div id="form-response"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2 class="logo">WEBLY.</h2>
+                    <p>We Build Digital Experiences That Inspire</p>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <a href="#about">Our Story</a>
+                    <a href="#process">Our Process</a>
+                    <a href="#testimonials">Clients</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <a href="#services">Web Design</a>
+                    <a href="#services">UI/UX</a>
+                    <a href="#services">Branding</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#portfolio">Our Work</a>
+                    <a href="#contact">Get in Touch</a>
+                    <a href="#home">Back to Top</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Behance</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WEBLY. All rights reserved.</p>
+                <p>Crafted with ❤️ in Dhaka</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Lightbox -->
+    <div id="lightbox">
+        <div class="lightbox-overlay"></div>
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <div class="lightbox-body">
+                <div class="lightbox-image-container">
+                    <div class="lightbox-placeholder"></div>
+                </div>
+                <div class="lightbox-details">
+                    <h3 id="lb-title">Project Title</h3>
+                    <div class="lb-meta">
+                        <div class="lb-meta-item"><strong>Category:</strong> <span id="lb-category">Web</span></div>
+                        <div class="lb-meta-item"><strong>Client:</strong> <span id="lb-client">Client Name</span></div>
+                        <div class="lb-meta-item"><strong>Tools:</strong> <span id="lb-tools">Tools</span></div>
+                        <div class="lb-meta-item"><strong>Year:</strong> <span id="lb-year">2024</span></div>
+                    </div>
+                    <p id="lb-description">Project description goes here.</p>
+                </div>
+            </div>
+            <button class="lightbox-prev">←</button>
+            <button class="lightbox-next">→</button>
+        </div>
+    </div>
+
+    <!-- CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
